@@ -42,6 +42,7 @@ public class IndexController {
         u.setId(id);
         u.setName(name);
         u.setDate(new Date());
+        System.out.println(u.getDate());
         return u;
     }
 }
